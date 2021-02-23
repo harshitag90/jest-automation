@@ -1,0 +1,89 @@
+{
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTestSuites": 1,
+  "numPassedTests": 2,
+  "numPendingTestSuites": 0,
+  "numPendingTests": 0,
+  "numRuntimeErrorTestSuites": 0,
+  "numTodoTests": 0,
+  "numTotalTestSuites": 1,
+  "numTotalTests": 2,
+  "openHandles": [],
+  "snapshot": {
+    "added": 0,
+    "didUpdate": false,
+    "failure": false,
+    "filesAdded": 0,
+    "filesRemoved": 0,
+    "filesRemovedList": [],
+    "filesUnmatched": 0,
+    "filesUpdated": 0,
+    "matched": 0,
+    "total": 0,
+    "unchecked": 0,
+    "uncheckedKeysByFile": [],
+    "unmatched": 0,
+    "updated": 0
+  },
+  "startTime": 1614072087205,
+  "success": false,
+  "testResults": [
+    {
+      "leaks": false,
+      "numFailingTests": 0,
+      "numPassingTests": 2,
+      "numPendingTests": 0,
+      "numTodoTests": 0,
+      "openHandles": [],
+      "perfStats": {
+        "end": 1614072091317,
+        "runtime": 2490,
+        "slow": false,
+        "start": 1614072088827
+      },
+      "skipped": false,
+      "snapshot": {
+        "added": 0,
+        "fileDeleted": false,
+        "matched": 0,
+        "unchecked": 0,
+        "unmatched": 0,
+        "updated": 0,
+        "uncheckedKeys": []
+      },
+      "testFilePath": "E:\\JestAutomation\\jest-automation\\__test__\\Cap_GetPostRequest.test.ts",
+      "testResults": [
+        {
+          "ancestorTitles": [
+            "GET and POST request"
+          ],
+          "duration": 667,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "GET and POST request Get the request",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Get the request"
+        },
+        {
+          "ancestorTitles": [
+            "GET and POST request"
+          ],
+          "duration": 179,
+          "failureDetails": [],
+          "failureMessages": [],
+          "fullName": "GET and POST request Validate attribute values from the response",
+          "location": null,
+          "numPassingAsserts": 0,
+          "status": "passed",
+          "title": "Validate attribute values from the response"
+        }
+      ],
+      "failureMessage": null
+    }
+  ],
+  "wasInterrupted": false,
+  "coverageMap": {}
+}

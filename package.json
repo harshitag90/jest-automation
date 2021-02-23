@@ -1,0 +1,47 @@
+{
+  "name": "jest-automation",
+  "version": "1.0.0",
+  "description": "This project is used to test feed sources",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --reporters default jest-stare --coverage --detectOpenHandles --runInBand --testTimeout=60000",
+    "test:watch": "jest --verbose --watchAll"
+  },
+  "jest": {
+    "testURL": "https://feedjar.azurewebsites.net/",
+    "verbose": true,
+    "coverageDirectory": "/JestAutomation/jest-automation/coverage/my_reports/",
+    "coverageReporters": [
+      "html",
+      "text"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "branches": 100,
+        "functions": 100,
+        "lines": 100,
+        "statements": 100
+      }
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hghushe/jest-automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hghushe/jest-automation/issues"
+  },
+  "homepage": "https://github.com/hghushe/jest-automation#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "fast-xml-parser": "^3.18.0",
+    "jest": "^26.6.3",
+    "jest-serial-runner": "^1.1.0",
+    "jest-stare": "^2.2.1",
+    "jsonpath": "^1.1.0",
+    "xml-js": "^1.6.11"
+  }
+}

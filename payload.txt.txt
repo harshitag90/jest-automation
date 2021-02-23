@@ -1,0 +1,77 @@
+ {
+ "config": 
+     {
+  "strictMode":false
+     
+  },
+
+"payload":
+{
+               
+  "identifier": "2021",
+  "sender": "Harshi",
+  "sent": "98765",
+  "status": "Active",
+  "msgType": "Alert",
+  "source": "FeedJar",
+  "scope": "Public",
+  "code": ["2.1", "2.2"],
+  "info": [
+    {
+      "category": ["A","B"],
+      "event":"BFS Test",
+      "urgency":["Immediate","Expected"],
+      "responseType":["Shelter","Avoid"],
+      "severity":["Extreme","Severe"],
+      "certainity":["Observed","Likely"],
+      "eventCode":["e1","e2"],
+      "parameter": [
+        {
+          "valueName": "same",
+          "value": "CEM"
+        },
+        {
+          "valueName": "ISOK",
+          "value": "OK"
+        }
+      ],
+      "resource":[
+          {
+        "resourceDesc":"IWS",
+        "mimeType":"html"
+      },
+      {
+        "resourceDesc":"IWS",
+        "mimeType":"image" ,
+        "digest":"SHA1"
+      }
+    ],
+    "area":[
+      {
+        "areaDesc":"Taylor; Clark",
+        "geocode":[
+          {
+            "valueName":"UGC",
+            "value":"WIZ017"
+          },
+          {
+            "valueName":"UGC",
+            "value":"WIZ017"
+          },
+          {
+            "valueName":"UGC",
+            "value":"WIZ017"
+          }
+        ]
+      }
+    ]
+    }
+    ]
+
+
+},
+"post":true
+ }
+ 
+ 
+ 
